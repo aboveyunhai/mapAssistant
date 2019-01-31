@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Road and Weather Assistant</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="icon" href="favicon.ico"/>
+</head>
+<body>
+	<div class="sidebar">
+		<!-- <button id="hideclick" onclick="hide()"><img id="hidelogo" src="images/hideimg.png"></button> -->
+		<label>From:</label>
+		<input id="start" placeholder="Origin">
+		<label>To:</label>
+		<input id="end" placeholder="Destination">
+		<button id="search">Get Direction</button>	
+	</div>
+<!-- 	<div class="main"> -->
+	<div id="googleMap"></div>
+	<div id="routePanel"></div>
+<!-- 	</div> -->
+
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=yourownGoogleApikey&libraries=places&callback=initmap"></script>
+</body>
+</html>

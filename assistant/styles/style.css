@@ -1,0 +1,93 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	display: flex;
+	font-family: Sans-serif;
+}
+/*body {
+	font-family: Sans-serif;
+}*/
+
+.sidebar {
+	height: 100%;
+	width: 250px;
+/*	transition: 0.4s;*/
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	float: left;
+/*	left: -370px;*/
+	background-color: #2395ff;
+	overflow-x: hidden;
+	padding-top: 30px;
+	padding: 6px 10px 6px 10px;
+	text-decoration: none;
+	font-size: 35px;
+	color: #000000;
+	display: block;
+}
+
+/*.sidebar:hover{
+	left:0;
+}*/
+
+#start, #end{
+	width:88%;
+	font-size: 25px;
+}
+
+/*#hidelogo {
+	height: 45px;
+	width: 45px;
+}*/
+
+/*#hideclick {
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	background: none;
+}*/
+
+/*.main {
+	margin-left: 270px;
+	padding: 5px 5px 5px 5px;
+}*/
+
+#routePanel {
+	font-family: 'Roboto','sans-serif';
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#routePanel select, #routePanel input {
+  font-size: 15px;
+}
+
+#routePanel select {
+	width: 100%;
+}
+
+#routePanel i {
+	font-size: 12px;
+}
+
+#routePanel {
+	height: 100%;
+	width: 390px;
+	overflow: auto;
+}
+
+#googleMap {
+	margin-left: 270px;
+	height: 700px;
+	width: 820px;
+}
+
+#routePanel {
+	background-color: #f7fcff;
+}
